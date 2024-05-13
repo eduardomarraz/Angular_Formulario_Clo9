@@ -27,7 +27,8 @@ export class AddTaskComponent {
       let storedData: any[] = JSON.parse(localStorage.getItem('datas') || '[]');
  
       // Agregar los nuevos detalles del usuario
-      storedData.push(this.userDetails);
+      //storedData.push(this.userDetails);
+       storedData.push({ name: this.userDetails.name });
  
       // Guardar el array actualizado en localStorage
       localStorage.setItem('datas', JSON.stringify(storedData));

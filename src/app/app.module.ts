@@ -13,7 +13,7 @@ import { DeleteItemComponent } from './delete-item/delete-item.component';
     AppComponent,
     AddTaskComponent,
     LocalStorageDataComponent,
-    DeleteItemComponent
+    DeleteItemComponent,
   ],
   imports: [
     BrowserModule,
